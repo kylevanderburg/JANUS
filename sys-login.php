@@ -38,7 +38,7 @@ if(isset($_GET['a'])){
     $options['vanguard']=TRUE;
     $options['vanguardLogin']="";
     $options['vanguardAccess']="X";
-	$options['vanguardLoginURL']="https://vanguard.kylevanderburg.net/";
+	//$options['vanguardLoginURL']="https://vanguard.kylevanderburg.net/";
 }
 require "/var/www/api.ntfg.net/htdocs/hammer/vanilla.php";
 ?>
